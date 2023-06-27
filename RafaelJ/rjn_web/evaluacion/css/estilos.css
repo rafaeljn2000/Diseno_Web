@@ -1,0 +1,40 @@
+*{
+    color:red;
+
+}
+
+aside p{
+
+    color:blue;
+}
+
+#azul
+{
+color:brown;
+}
+
+.rojo
+{
+color:rgb(153, 165, 42);
+}
+
+
+    
+// a todo header o a todo lo que se elija
+
+p
+{
+color:blue;
+background-color: red;
+
+}
+
+h1
+{
+
+    color:blue;
+    background-color: red;
+    font-size: 2.5em;
+    text-align: center;
+
+}
