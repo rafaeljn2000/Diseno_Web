@@ -1,40 +1,87 @@
-*{
-    color:red;
-
-}
-
-aside p{
-
-    color:blue;
-}
-
-#azul
-{
-color:brown;
-}
-
-.rojo
-{
-color:rgb(153, 165, 42);
-}
-
-
-    
-// a todo header o a todo lo que se elija
-
-p
-{
-color:blue;
-background-color: red;
-
-}
-
 h1
 {
 
-    color:blue;
-    background-color: red;
-    font-size: 2.5em;
+    color:rgb(163, 241, 163);
+    background-color: rgb(107, 102, 102);
+    font-size: 4em;
     text-align: center;
+    height:1.5em;
+  
+    border-width:10px;
 
 }
+
+header{
+color:rgb(107, 102, 102);
+background-color: rgb(163, 241, 163);
+text-align: justify;
+height: 10em;
+
+
+
+}
+
+a{
+    color:rgb(107, 102, 102);
+    font-size: 20px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+section
+
+{
+border-style:solid;
+border-width:10px;
+border-color: rgb(183, 243, 165);
+background-color: rgb(89, 206, 235);
+text-align: center;
+width:60%;
+height: 15em;
+
+
+}
+
+aside {
+
+    border-style:solid; 
+    border-width:10px;
+    border-color: rgb(183, 243, 165);
+    background-color: rgb(241, 61, 166);
+    text-align: center;
+    
+    width:40%;
+    height: 15em;
+}
+
+footer{
+    border-style:solid; 
+    border-width:10px;
+    border-color: rgb(183, 243, 165);
+    background-color: rgb(241, 229, 61);
+    text-align: center;
+}
+
+
+.lista-vinetas {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Para centrar horizontalmente */
+  
+}
+
+.lista-vinetas li {
+  display: inline-block;
+  margin: 0 40px; /* Espacio entre las viñetas */
+}
+
+
+
+
+
+  
