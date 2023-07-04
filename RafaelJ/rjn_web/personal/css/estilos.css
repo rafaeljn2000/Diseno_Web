@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:wght@100&display=swap');
 
 
 /* Hoja de estilos página personal*/
@@ -87,13 +88,14 @@ nav
 /* establecemos el 100% alto y 100% acnho header*/
 
 
+
 header
 
     {
         width: 100%;
-        height: 30vh;
-        background-color: aquamarine;
-<       background:url(../img/fondo.jpg) ;
+        height: 70vh;
+        /*background-color: aquamarine;*/
+        background:url(../img/fondo.jpg) ;
         background-repeat: no-repeat ;
         background-size: cover;
         background-position: center;
@@ -104,7 +106,7 @@ header
 
 .caja
 {
-    background-color: rgb(255, 200, 127);
+    /*background-color: rgb(255, 200, 127);*/
 
     height: 50vh;
     display: flex;
@@ -115,15 +117,76 @@ header
 
 .cajita
 {
-    background-color: rgb(236, 255, 127);
+    /*background-color: rgb(236, 255, 127);*/
     width: 50%;
     height: 50vh;
     overflow:auto;
+    display:flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+   
 
 }
 
-.foto
+.cajita img
 {
 
-    width:70%;
+    width:40%;
+    border-radius: 10%;
+    
 }
+
+h1{
+    font-size: 3em;
+    width: 50%;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5em;
+    width: 50%;
+    text-align: center;
+}
+
+span{
+
+    color:rgb(0, 26, 255);
+}
+
+body
+{
+
+   font-family: 'Black Ops One', cursive;
+   /*font-family: 'Roboto', sans-serif;*/
+   
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+/* Aqui comienza el diseño pára celular --Modelo responsivo  celular-- */
+
+@media(max-width:900px)
+
+{
+
+    *{
+
+        margin:0;
+        padding:0;
+    }
+
+    header{
+        background:rgb(212, 0, 255);
+
+        }
+
+
+
+
+
+
+}
+
+
+
