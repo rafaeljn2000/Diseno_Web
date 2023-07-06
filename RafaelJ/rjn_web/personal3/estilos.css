@@ -172,6 +172,65 @@ nav img
     display: none;
 }
 
+/********************************************************/
+
+.recorrido
+{
+
+width:100%;
+height: 50vh;
+background: url("../img/pilares.jpg");
+background-repeat: no-repeat ;
+background-size: cover;
+background-position: center;
+
+
+}
+
+.cajas
+{
+
+width:100%;
+height: 40vh;
+display:flex;
+
+justify-content: center;
+align-items: center;
+
+}
+
+.modulo
+{
+
+background-color: aqua;
+width:25%;
+height: 35vh;
+
+}
+
+.modulo img
+{
+
+ width: 100%; 
+ height: 20vh;  
+
+}
+
+
+
+
+
+
+
+
+
+
+/********************************************************************/
+
+
+
+
+
 /********************     Seccion acerca de....              *************************************/
 
 
